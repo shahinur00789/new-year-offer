@@ -11,7 +11,7 @@ body{
 .border-con{
     max-width: 1320px;
     min-height: 600px;
-    border: 2px solid red;
+    
     margin: 0 auto;
     margin-top: 20px;
     background-image: url(../Banner\ Image.png);
@@ -438,3 +438,84 @@ text-align: left;
 height: 450px;
 }
 /* portfolio done */
+
+/* email section start */
+.email{
+    width: 1320px;
+height: 616px;
+border: 2px solid red;
+margin: 0 auto;
+background: rgba(255, 0, 0, 0.05);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+}
+.email img{
+    width: 150px;
+height: 150px;
+
+}
+.email h1{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+
+}
+.email p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.e-btn{
+    width: 648px;
+height: 72px;
+/* border: 2px solid white; */
+
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+border-radius: 50px;
+background: rgb(255, 255, 255);
+}
+.e-btn input{
+    width: 438px;
+    height: 72px;
+    color: rgba(7, 2, 17, 0.3);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+}
+.e-btn button{
+    /* position: absolute; */
+width: 210px;
+height: 72px;
+/* border-radius: 50px; */
+background-color: #FF0000;
+border-radius: 0px 50px 50px 0px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+/* email section end */
