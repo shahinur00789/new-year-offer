@@ -443,7 +443,7 @@ height: 450px;
 .email{
     width: 1320px;
 height: 616px;
-border: 2px solid red;
+
 margin: 0 auto;
 background: rgba(255, 0, 0, 0.05);
 display: flex;
@@ -519,3 +519,57 @@ text-align: center;
 text-transform: capitalize;
 }
 /* email section end */
+
+
+/* footer section style */
+.info{
+    width: 1600px;
+height: 609px;
+background: rgb(7, 2, 17);
+margin: 0 auto;
+margin-top: 95px;
+color: white;
+padding: 50px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+
+}
+.contact{
+    display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+     width: 90%;
+     margin: 0 auto;
+}
+.icon{
+    width: 350px;
+    height: 64px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+}
+hr{
+    width: 1320px;
+height: 0;
+color: white;
+border: 1px solid rgba(255, 255, 255, 0.15);
+margin-bottom: 50px;
+margin-top: 50px;
+}
+.last-sec{
+    display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+     width: 90%;
+     margin: 0 auto;
+}
+
+/* compilete */
+    
+
+
